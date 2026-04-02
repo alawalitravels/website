@@ -116,7 +116,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ffa600;
+			color: #37c0fb;
 			border-bottom-color: transparent;
 		}
 
@@ -3068,7 +3068,7 @@ input, select, textarea {
 				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				height: 44px;
 				line-height: 44px;
-				box-shadow: 0 4px 0 0 #ffa600;
+				box-shadow: 0 4px 0 0 #37c0fb;
 			}
 
 				#titleBar .title {
@@ -3357,23 +3357,25 @@ input, select, textarea {
 				text-align: left;
 			}
 
-		}
-
-
 		/* shift arabic */
-	
-	#language-switcher a {
+			#language-switcher a {
     text-decoration: none;
     margin: 0 5px;
     font-weight: bold;
-    color: #ff9400;
+    color: #333;
 }
 
 #language-switcher a:hover {
-    color: #1eb8fb;
+    color: #ff9400;
 }
 
 
+	}
+
+/* Make logo scale automatically */
+/* Ensure header logo scales correctly */
+
+	
 /* hotel-card */
 
 
@@ -3462,8 +3464,4 @@ input, select, textarea {
 
 .book-now-btn:hover {
   background: #ff8602;
-}
-
-i {
-  margin-right: 3px;
 }
