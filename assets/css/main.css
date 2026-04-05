@@ -2201,25 +2201,26 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
-	}
+    cursor: default;
+    list-style: none;
+    padding-right: 0; /* change from padding-left */
+    direction: rtl; /* set text direction to right-to-left */
+}
 
-		ul.icons li {
-			display: inline-block;
-			line-height: 1em;
-			padding-left: 1.5em;
-		}
+ul.icons li {
+    display: inline-block;
+    line-height: 1em;
+    padding-right: 1.5em; /* change from padding-left */
+}
 
-			ul.icons li:first-child {
-				padding-left: 0;
-			}
+ul.icons li:first-child {
+    padding-right: 0; /* change from padding-left */
+}
 
-			ul.icons li a, ul.icons li span {
-				font-size: 2em;
-				border: 0;
-			}
+ul.icons li a, ul.icons li span {
+    font-size: 2em;
+    border: 0;
+}
 
 /* Menu */
 
