@@ -3366,11 +3366,11 @@ input, select, textarea {
     text-decoration: none;
     margin: 0 5px;
     font-weight: bold;
-    color: #ff9400;
+    color: #1eb8fb;
 }
 
 #language-switcher a:hover {
-    color: #1eb8fb;
+    color: #ff9400;
 }
 
 
