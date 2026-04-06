@@ -3161,8 +3161,8 @@ ul.icons li a, ul.icons li span {
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					color: #888;
 					display: block;
-					height: 48px;
-					line-height: 48px;
+					height: 40px;
+					line-height: 40px;
 					padding: 0 1em 0 1em;
 					text-decoration: none;
 				}
@@ -3369,11 +3369,11 @@ ul.icons li a, ul.icons li span {
     text-decoration: none;
     margin: 0 5px;
     font-weight: bold;
-    color: #ff9400;
+    color: #1eb8fb;
 }
 
 #language-switcher a:hover {
-    color: #1eb8fb;
+    color: #ff9400;
 }
 
 
